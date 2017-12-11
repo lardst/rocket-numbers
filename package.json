@@ -1,0 +1,28 @@
+{
+  "name": "rocket-numbers",
+  "version": "1.0.0",
+  "description": "Rocket's own version of an ordinal/cardinal to number plugin.",
+  "main": "./lib/rocket",
+  "scripts": {
+    "test": "mocha test/ -R spec -s 300 -t 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lardst/rocket-numbers.git"
+  },
+  "author": "“Lawrence Burnett\" <“lawrence.burnett@outlook.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lardst/rocket-numbers/issues"
+  },
+  "homepage": "https://github.com/lardst/rocket-numbers#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jscs": "^2.8.0",
+    "load-grunt-config": "^0.19.2",
+    "mocha": "^3.5.3",
+    "should": "~4.0.4"
+  }
+}
